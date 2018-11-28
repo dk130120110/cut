@@ -1,0 +1,7 @@
+<!-- 上传图片 -->
+<view class="uploader">
+  <view class="uploader-text" bindtap="doUpload">
+    上传图片
+  </view>
+  <image src='{{img}}' class='img'></image>
+</view>

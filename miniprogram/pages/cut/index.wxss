@@ -1,0 +1,40 @@
+page{ height: 100%; }
+.box{
+  position: relative;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(000, 000, 000, .7);
+}
+.img{
+  top: 0;
+  position: absolute;
+}
+.select{
+  position: absolute;
+  box-sizing: border-box;
+  border: 2rpx dashed #ffdb45;
+}
+.ok-box{
+  background-color: #333;
+  height: 400rpx;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.ok{
+  width: 200rpx;
+  height: 60rpx;
+  background-color: #ffdb45;
+  border-radius: 8rpx;
+  font-size: 28rpx;
+  text-align: center;
+  line-height: 60rpx;
+}
+.canvas{
+  position: absolute;
+  left: -9999px;
+}

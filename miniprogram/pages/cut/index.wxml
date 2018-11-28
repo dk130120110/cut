@@ -1,0 +1,8 @@
+<view class='box' bind:touchstart='touchstart' bind:touchmove='touchmove' wx:if='{{!showPic}}'>
+  <image style="width: {{width}}rpx; height: {{height}}rpx; top: {{top}}px; left: {{left}}px;" class='img' src='{{img}}'></image>
+  <view class='select' wx:if='{{sLeft}}' style='width: {{sizeW}}rpx; height: {{sizeH}}rpx; left: {{sLeft}}px; top: {{sTop}}px;'></view>
+  <view class='ok-box'>
+    <view bind:tap='click' class='ok'>确定</view>
+  </view>
+</view>
+<canvas class='canvas' style='width: {{width}}rpx; height: {{height}}rpx;' canvas-id='canvas'></canvas>
