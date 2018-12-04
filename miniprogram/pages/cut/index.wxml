@@ -1,4 +1,4 @@
-<view class='box' bind:touchstart='touchstart' bind:touchmove='touchmove' wx:if='{{!showPic}}'>
+<view class='box' bind:touchstart='touchstart' bind:touchmove='touchmove'>
   <image style="width: {{width}}rpx; height: {{height}}rpx; top: {{top}}px; left: {{left}}px;" class='img' src='{{img}}'></image>
   <view class='select' wx:if='{{sLeft}}' style='width: {{sizeW}}rpx; height: {{sizeH}}rpx; left: {{sLeft}}px; top: {{sTop}}px;'></view>
   <view class='ok-box'>

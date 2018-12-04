@@ -82,9 +82,6 @@ const page = {
         }
       })
     })
-  },
-  back() {
-    this.setData({ showPic: false });
   }
 }
 
