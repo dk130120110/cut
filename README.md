@@ -7,7 +7,7 @@
 ## 效果图
 相册的图片稍微打了点码
 
-![Image text](https://github.com/dk130120110/cut/blob/master/miniprogram/images/cut.gif?raw=true)
+![Image text](https://github.com/dk130120110/cut/blob/master/assets/cut.gif?raw=true)
 
 ## 参考文档
 
